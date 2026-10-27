@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-27T00:00:00.000Z",
+  "categories": [
+    {
+      "id": "massas",
+      "name": "Massas",
+      "order": 1,
+      "active": true
+    },
+    {
+      "id": "paes",
+      "name": "Pães",
+      "order": 2,
+      "active": true
+    },
+    {
+      "id": "coffee-break",
+      "name": "Coffee break",
+      "order": 3,
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": "demo-massa-fresca",
+      "slug": "massa-fresca-exemplo",
+      "name": "Massa fresca",
+      "categoryId": "massas",
+      "description": "Item de exemplo para demonstrar a escolha de formato e a soma no carrinho.",
+      "image": "/produtos/massa-fresca.webp",
+      "imageAlt": "Massa fresca Do Nono",
+      "sellingUnit": "pacote",
+      "variants": [
+        {
+          "id": "formato",
+          "name": "Formato",
+          "required": true,
+          "options": [
+            {
+              "id": "longo",
+              "name": "Formato longo",
+              "priceInCents": 1800,
+              "active": true
+            },
+            {
+              "id": "curto",
+              "name": "Formato curto",
+              "priceInCents": 1600,
+              "active": true
+            }
+          ]
+        }
+      ],
+      "featured": true,
+      "active": true,
+      "availability": "available",
+      "isDemo": true
+    },
+    {
+      "id": "demo-massa-recheada",
+      "slug": "massa-recheada-exemplo",
+      "name": "Massa recheada",
+      "categoryId": "massas",
+      "description": "Item de exemplo sem preço cadastrado: aparece como sob consulta.",
+      "image": "/produtos/massa-recheada.webp",
+      "imageAlt": "Massa recheada Do Nono",
+      "sellingUnit": "pacote",
+      "featured": true,
+      "active": true,
+      "availability": "on_request",
+      "isDemo": true
+    },
+    {
+      "id": "demo-pao",
+      "slug": "pao-exemplo",
+      "name": "Pão",
+      "categoryId": "paes",
+      "description": "Item de exemplo com preço fixo por unidade.",
+      "image": "/produtos/pao.webp",
+      "imageAlt": "Pão Do Nono",
+      "sellingUnit": "unidade",
+      "priceInCents": 1200,
+      "featured": true,
+      "active": true,
+      "availability": "available",
+      "isDemo": true
+    },
+    {
+      "id": "demo-bandeja-coffee-break",
+      "slug": "bandeja-coffee-break-exemplo",
+      "name": "Bandeja para coffee break",
+      "categoryId": "coffee-break",
+      "description": "Item de exemplo. A composição e o tamanho são definidos com o atendimento.",
+      "image": "/produtos/bandeja-coffee-break.webp",
+      "imageAlt": "Bandeja para coffee break Do Nono",
+      "sellingUnit": "bandeja",
+      "variants": [
+        {
+          "id": "tamanho",
+          "name": "Tamanho",
+          "required": true,
+          "options": [
+            {
+              "id": "pequena",
+              "name": "Pequena",
+              "active": true
+            },
+            {
+              "id": "grande",
+              "name": "Grande",
+              "active": true
+            }
+          ]
+        }
+      ],
+      "featured": false,
+      "active": true,
+      "availability": "on_request",
+      "isDemo": true
+    },
+    {
+      "id": "demo-caixa-coffee-break",
+      "slug": "caixa-coffee-break-exemplo",
+      "name": "Caixa para coffee break",
+      "categoryId": "coffee-break",
+      "description": "Item de exemplo marcado como indisponível, para demonstrar esse estado.",
+      "image": "/produtos/caixa-coffee-break.webp",
+      "imageAlt": "Caixa para coffee break Do Nono",
+      "sellingUnit": "caixa",
+      "featured": false,
+      "active": true,
+      "availability": "unavailable",
+      "isDemo": true
+    }
+  ]
+}
